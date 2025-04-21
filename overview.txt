@@ -1,0 +1,66 @@
+Project Overview (Simple English)
+
+This project is called "puthon_syberproject". It helps to watch network traffic and detect if something suspicious is happening, like hacking or attacks.
+
+Here is what each file does:
+
+1---main.py
+
+This is the main file that starts the program.
+
+It connects all the parts together and runs the Intrusion Detection System (IDS).
+
+2---ids_gui.py
+
+This file makes the simple window (GUI) that you can see on the screen.
+
+You can use buttons to start or stop the system and see results.
+
+3---packet_sniffer.py
+
+This file listens to the network.
+
+It catches the packets (small data pieces) that move in the network.
+
+4---detection_engine.py
+
+This is the brain of the system.
+
+It checks the packets and decides if something looks like an attack.
+
+5---requirements.txt
+
+This file lists all the Python packages (tools) that are needed to run the project.
+
+You can install them using this file with pip.
+
+This project helps in cybersecurity by checking network activity and telling you if something looks wrong or dangerous.
+
+Tools and Technologies Used (Simple English)
+
+Python
+
+Main programming language used to write this project.
+
+scapy
+
+A Python library used to read and analyze network packets.
+
+tkinter
+
+A Python library used to create the GUI (the window you click on).
+
+threading
+
+Helps run many parts of the program at the same time.
+
+socket
+
+Helps connect to the network and get data.
+
+re (Regular Expressions)
+
+Used to search for patterns in text to detect attacks.
+
+These tools work together to watch the network, detect any suspicious behavior, and show results in a simple user interface.
+
